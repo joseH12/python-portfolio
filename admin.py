@@ -55,4 +55,3 @@ class Admin(User):
 		'''Initialize admin profile with parent class.'''
 		super().__init__(firstName, lastName, age, gender)
 		self.privileges = Privileges()
-
