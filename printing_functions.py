@@ -13,4 +13,3 @@ def show_completed_models(completedModels):
 	print("\nThe following models have been printed:")
 	for completedModel in completedModels:
 		print(completedModel)
-
